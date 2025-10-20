@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Icon Animation</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif, sans-serif;
+      padding: 20px;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 45px;
+      color: #222;
+      margin: 40px 0 20px;
+    }
+
+    .section {
+      margin-bottom: 60px;
+    }
+
+    .divider {
+      border: none;
+      border-top: 2px solid #ccc;
+      margin: 60px auto;
+      max-width: 80%;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    .image-container video {
+      width: 500px;
+      height: 350px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    figcaption {
+      text-align: center;
+      font-size: 16px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 32px;
+      }
+      .image-container {
+        justify-content: center;
+      }
+      .image-container video {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Section 1: Introduction -->
+  <section class="section">
+    <h1>Sumo Wrestler Video</h1>
+  </section>
+  <hr class="divider" />
+
+  <div class="image-container">
+    <video controls>
+      <source src="../videos from DSGD-109/SriyaGopalan_IconAnimation.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <figcaption>Music Notes Animation Film</figcaption>
+
+</body>
+</html>

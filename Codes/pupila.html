@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pupila</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif, sans-serif;
+      padding: 20px;
+      margin: 0;
+      background-color: #000000;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 45px;
+      color: #ffffff;
+      margin: 40px 0 20px;
+    }
+
+    .section {
+      margin-bottom: 60px;
+    }
+
+    .divider {
+      border: none;
+      border-top: 2px solid #ccc;
+      margin: 60px auto;
+      max-width: 80%;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: 0 auto;
+      align-items: center;
+    }
+
+    .image-container img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .text-container {
+      flex: 1;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #ffffff;
+      min-width: 280px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .team-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+
+.team-member {
+  background: #000000; /* black background instead of white */
+  color: #ffffff;      /* white text */
+  padding: 20px;
+  max-width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1); /* lighter shadow on black */
+  text-align: center;
+}
+
+.team-member h3,
+.team-member p {
+  color: #ffffff;
+}
+
+.team-member img {
+  border: 2px solid #fff; /* optional: white border so images stand out */
+}
+
+
+    figcaption {
+      text-align: center;
+      font-size: 16px;
+      color: #ffffff;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 32px;
+      }
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Section 1: PUPILA -->
+<section class="section" style="padding: 20px; max-width: 900px; margin: auto;">
+  <h1 style="text-align: center; color: white;">PUPILA</h1>
+  <div style="display: flex; align-items: center; justify-content: center; gap: 30px; margin-top: 20px;">
+    <img 
+      src="/images for pupila/pupila_image.jpg" 
+      style="max-width: 25%; border-radius: 10px; height: auto;"
+    />
+    <div style="max-width: 45%; color: white; display: flex; flex-direction: column; justify-content: center;">
+      <p style="font-size: 30px; font-weight: bold; margin-bottom: 10px;">Creative Powerhouse in Costa Rica</p>
+      <p style="font-size: 20px; font-weight: normal;">Santa Lucia, skincare art by Pupila</p>
+    </div>
+  </div>
+</section>
+
+  <hr class="divider" />
+
+  <!-- Section 2: Renowned Brand Agency in Latin America -->
+<section class="section" style="background-color: #000; padding: 40px 20px;">
+  <h1 style="text-align: center; color: white; margin-bottom: 40px;">Renowned Brand Agency in Latin America</h1>
+  
+  <div style="
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px; 
+    max-width: 900px;
+    margin: 0 auto;
+  ">
+    <figure style="text-align: center; color: white;">
+      <img src="../images for pupila/FedeFut-Guatemala-Logo-New.png" width="350" height="250" style="border-radius: 10px;"/>
+      <figcaption style="margin-top: 10px; font-size: 18px;">Guatemalan Football</figcaption>
+    </figure>
+
+    <figure style="text-align: center; color: white;">
+      <img src="../images for pupila/kolbi-costa-rica-logo.png.webp" width="300" height="250" style="border-radius: 10px;"/>
+      <figcaption style="margin-top: 10px; font-size: 18px;">Kolbi Telecom</figcaption>
+    </figure>
+
+    <figure style="text-align: center; color: white;">
+      <img src="../images for pupila/selva_farm_opening.webp" width="250" height="250" style="border-radius: 10px;"/>
+      <figcaption style="margin-top: 10px; font-size: 18px;">Selva Farm Cannabis</figcaption>
+    </figure>
+
+    <figure style="text-align: center; color: white;">
+      <img src="../images for pupila/clinica_biblica_hospital.jpg" width="350" height="250" style="border-radius: 10px;"/>
+      <figcaption style="margin-top: 10px; font-size: 18px;">Clinica Biblica Hospital</figcaption>
+    </figure>
+  </div>
+</section>
+
+
+  <hr class="divider" />
+
+  <!-- Section 3: Renowned Brand Agency in Latin America (2) -->
+<section class="section" style="background-color: #000; padding: 40px 20px;">
+  <h1 style="text-align: center; color: white; margin-bottom: 40px;">Renowned Brand Agency in Latin America (2)</h1>
+  
+  <div style="
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);  /* force 2 columns */
+    gap: 40px; 
+    max-width: 700px;  /* to keep layout neat */
+    margin: 0 auto;
+    color: white;
+  ">
+    <figure style="text-align: center;">
+      <img src="../images for pupila/sensation_ice_cream_pupila.jpg" width="300" height="300" style="border-radius: 10px;"/>
+      <figcaption style="margin-top: 10px; font-size: 18px;">Sensacion Ice Cream</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="../images for pupila/uncaf_football_medal.jpg" width="300" height="300" style="border-radius: 10px;"/>
+      <figcaption style="margin-top: 10px; font-size: 18px;">UNCAF Football</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Boncagera_Coffee_branding.jpeg" width="300" height="200" style="border-radius: 10px;"/>
+      <figcaption style="margin-top: 10px; font-size: 18px;">Bocanegra Coffee</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="../images for pupila/pei_mobile_wallet.jpg" width="300" height="200" style="border-radius: 10px;"/>
+      <figcaption style="margin-top: 10px; font-size: 18px;">Pei Mobile Wallet</figcaption>
+    </figure>
+  </div>
+</section>
+
+  <hr class="divider" />
+
+  <!-- Section 4: Creative Team -->
+<section class="section" style="background-color: #000; padding: 40px 20px; color: white;">
+  <!-- Header -->
+  <h1 style="text-align: center; margin-bottom: 40px;">Creative Team</h1>
+
+  <!-- 2x2 Image Grid -->
+  <div style="
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 700px;
+    margin: 0 auto 40px;  /* center + margin bottom */
+  ">
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Alfredo_Enciso.jpg" width="300" height="300" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px;">Alfredo Enciso, Founder<br>Role: Business Development</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Bruno_Campos.jpg" width="300" height="300" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px;">Bruno Campos, Partner<br>Role: Creative Copywriting</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Marcelo_Jimenez.jpg" width="300" height="300" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px;">Marcelo Jimenez, Partner<br>Role: Art Director</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Cynthia_Bonila.jpg" width="300" height="300" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px;">Cynthia Bonila, Partner<br>Role: Creative Designer</figcaption>
+    </figure>
+  </div>
+
+  <!-- Text under images -->
+  <div style="max-width: 700px; margin: 0 auto; font-size: 20px; line-height: 1.8; text-align: center;">
+    <p style="margin-bottom: 20px;">
+      Founded in Costa Rica in 2010, this creative team specializes in branding, packaging, art, illustration, and editorial projects.
+    </p>
+    <p>
+      With a client base that spans over 24 countries, their collaborative approach blends design excellence with cultural insight.
+    </p>
+  </div>
+</section>
+
+  <hr class="divider" />
+
+<!-- Section 5: Approach -->
+<section class="section" style="background-color: #000; padding: 40px 20px; color: white;">
+  <h1 style="text-align: center; margin-bottom: 40px;">Approach</h1>
+  
+  <div style="text-align: center;">
+    <img src="../images for pupila/pupila_page_with_flower_book.jpg" width="500" height="350" style="border-radius: 10px;"/>
+  </div>
+  
+  <!-- Text under images -->
+  <div style="max-width: 700px; margin: 30px auto 0; font-size: 20px; line-height: 1.8; text-align: center;">
+    <p style="margin-bottom: 20px;">
+      - Showcase Latin America’s design talent
+    </p>
+    <p style="margin-bottom: 20px;">
+      - Build Brand Identity for local products, sports, festivals
+    </p>
+    <p>
+      - Inspire and share knowledge through curriculum and events
+    </p>
+  </div>
+</section>
+
+
+  <hr class="divider" />
+
+  <!-- Section 6: Work and Recognition -->
+<section style="padding: 60px 20px; background-color: #000; color: white;">
+  <h2 style="font-size: 42px; text-align: center; margin-bottom: 40px; color: white;">
+    Work and Recognition
+  </h2>
+
+  <div style="
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+  ">
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Corporate_Branding.jpg" width="300" height="300" alt="Corporate Branding" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px; text-align: center;">
+        Corporate Branding
+      </figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Editorial_Branding.jpg" width="300" height="300" alt="Editorial Branding" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px; text-align: center;">
+        Editorial Branding
+      </figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Community_Branding.jpg" width="300" height="300" alt="Community Branding" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px; text-align: center;">
+        Community Branding
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+  <hr class="divider" />
+
+  <!-- Section 7: Corporate Branding -->
+<section style="padding: 60px 20px; background-color: #000; color: white;">
+  <h2 style="font-size: 42px; text-align: center; margin-bottom: 40px;">
+    Corporate Branding
+  </h2>
+
+  <!-- Top Row: 3 Images -->
+  <div style="
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  ">
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Food_and_Beverage.jpg" width="300" height="200" alt="Food and Beverage" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px;">Food and Beverage</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Lifestyle.jpg" width="200" height="200" alt="Lifestyle" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px;">Lifestyle</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Technology_Pupila.jpg" width="200" height="200" alt="Technology" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px;">Technology</figcaption>
+    </figure>
+  </div>
+
+  <!-- Bottom Row: 2 Images in "W" Formation -->
+  <div style="
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 40px;
+  ">
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Real_Estate_Kopok.jpg" width="200" height="300" alt="Real Estate" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px;">Real Estate</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Sports.jpg" width="300" height="300" alt="Sports" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px;">Sports</figcaption>
+    </figure>
+  </div>
+</section>
+
+    <hr class="divider" />
+
+<!-- Section 8: Editorial Journal -->
+<section class="section" style="background-color: #000; color: white; padding: 60px 20px;">
+  <!-- Header -->
+  <h1 style="text-align: center; font-size: 42px; margin-bottom: 40px;">Editorial Journal</h1>
+
+  <!-- Two Images Side-by-Side -->
+  <div style="
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  ">
+    <img src="../images for pupila/Book_Cover1.jpg" width="300" style="border-radius: 10px;" alt="Book Cover 1" />
+    <img src="../images for pupila/Book_Cover2.jpg" width="300" style="border-radius: 10px;" alt="Book Cover 2" />
+  </div>
+
+  <!-- Text Below Images -->
+  <div style="max-width: 700px; margin: 0 auto; text-align: center; font-size: 18px; line-height: 1.6;">
+    <p>- Bruno and Cynthia’s passion to develop Editorial designs for book cover</p>
+  </div>
+</section>
+
+    <hr class="divider" />
+
+<!-- Section 9: Community and Art Exhibits -->
+<section class="section" style="background-color: #000; padding: 40px 20px; color: white;">
+  <!-- Header -->
+  <h1 style="text-align: center; margin-bottom: 40px;">Community and Art Exhibits</h1>
+
+  <!-- 2x2 Image Grid -->
+  <div style="
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 700px;
+    margin: 0 auto 40px;  /* center + margin bottom */
+  ">
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Image1.jpg" width="300" height="300" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px;">Alfredo Enciso, Founder<br>Role: Business Development</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Image2.jpg" width="300" height="300" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px;">Bruno Campos, Partner<br>Role: Creative Copywriting</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Image3.jpg" width="300" height="300" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px;">Marcelo Jimenez, Partner<br>Role: Art Director</figcaption>
+    </figure>
+
+    <figure style="text-align: center;">
+      <img src="../images for pupila/Image4.jpg" width="300" height="300" style="border-radius: 10px;" />
+      <figcaption style="margin-top: 10px; font-size: 16px;">Cynthia Bonila, Partner<br>Role: Creative Designer</figcaption>
+    </figure>
+  </div>
+
+  <!-- Text under images -->
+  <div style="max-width: 700px; margin: 0 auto; font-size: 20px; line-height: 1.8; text-align: center;">
+    <p style="margin-bottom: 20px;">
+      Promoting young artists and talent across the world to recognize the work of art
+    </p>
+  </div>
+</section>
+
+  <hr class="divider" />
+
+<!-- Section 10: Ending Credits -->
+<section class="section" style="background-color: #000; color: white; padding: 60px 20px;">
+  <!-- Image Collage -->
+  <figure style="text-align: center; margin-bottom: 30px;">
+    <img src="../images for pupila/Pupila_Collage.jpg" width="600" height="400" style="border-radius: 10px;" />
+  </figure>
+
+  <!-- Credits Image -->
+  <figure style="text-align: center; margin-bottom: 40px;">
+    <img src="../images for pupila/Credits_Pupila.jpg" width="370" height="130" style="border-radius: 10px;" />
+  </figure>
+
+  <!-- Contact Info -->
+  <div style="max-width: 700px; margin: 0 auto; text-align: center; font-size: 18px; line-height: 1.8;">
+    <p style="margin-bottom: 10px;">Contact Pupila for more information:</p>
+    <p>Email: <a href="mailto:ojo@pupila.co" style="color: #00aced;">ojo@pupila.co</a></p>
+    <p>Phone: +506-8981-0669</p>
+    <p>Website: <a href="https://www.pupila.co/" target="_blank" style="color: #00aced;">https://www.pupila.co/</a></p>
+  </div>
+</section>
+
+
+</body>
+</html>
